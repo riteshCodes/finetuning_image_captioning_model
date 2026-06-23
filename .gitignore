@@ -1,0 +1,31 @@
+# virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorBoard logs
+runs/
+
+# Model checkpoints
+*.pth
+*.pt
+*.safetensors
+
+# HuggingFace cache
+.cache/
+
+# Dataset cache
+~/.cache/huggingface/
+
+# OS
+.DS_Store
+Thumbs.db
