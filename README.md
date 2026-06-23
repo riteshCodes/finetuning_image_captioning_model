@@ -226,7 +226,7 @@ AdamW optimizer + LR scheduler
 
 Cross-entropy loss over valid (non-padding) positions only:
 
-$$\mathcal{L} = -\frac{1}{|V|} \sum_{t \in V} \log p_\theta(w_t \mid \text{image}, w_{<t})$$
+$$\mathcal{L} = -\frac{1}{|V|} \sum_{t \in V} \log p_\theta(w_t \mid \text{image}, w_{\lt t})$$
 
 where $V$ is the set of non-padding token positions (including the EOS token).
 
